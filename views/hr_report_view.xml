@@ -1,0 +1,14 @@
+<odoo>
+    <menuitem id="menu_custom_reports_root"
+              name="Reportes Customizados"
+              parent="account.menu_finance_reports"
+              sequence="200"
+              groups="account.group_account_user"/>
+
+    <menuitem id="menu_custom_hr_report_wizard"
+              name="Reporte RRHH Facturas"
+              parent="menu_custom_reports_root"
+              action="hr_report_wizard"
+              sequence="10"
+              groups="account.group_account_user"/>
+</odoo>
